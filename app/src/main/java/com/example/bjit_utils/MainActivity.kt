@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.utils.dpToPx
 import com.example.utils.pixelsToDp
+import com.example.utils.showToast
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -18,5 +19,6 @@ class MainActivity : AppCompatActivity() {
         text_view.text = """Height in pixel = $heightInPx 
 Height in dp = $heightInDp"""
 
+        showToast("This is toast")
     }
 }
