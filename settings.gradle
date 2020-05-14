@@ -1,0 +1,3 @@
+rootProject.name='bjit-utils'
+include ':app'
+include ':utils'
